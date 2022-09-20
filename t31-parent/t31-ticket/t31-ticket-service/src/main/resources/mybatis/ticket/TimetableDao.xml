@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyf.t31.ticket.dao.TimetableDao">
+
+    <select id="selectByPage" resultType="Timetable">
+
+        SELECT
+        a.*,
+        b.`number` AS train_number
+        FROM
+        train_timetable a INNER JOIN train_number b
+        ON
+        a.`number_id` = b.`id`
+        <where>
+            <if test="numberId != null">
+                a.number_id = #{numberId}
+            </if>
+            <if test="fromStation != null and fromStation != ''">
+                and a.from_station = #{fromStation}
+            </if>
+            <if test="toStation != null and toStation != ''">
+                and a.to_station = #{toStation}
+            </if>
+            <if test="trainNumber != null and trainNumber != ''">
+                and b.`number` = #{trainNumber}
+            </if>
+        </where>
+    </select>
+
+</mapper>

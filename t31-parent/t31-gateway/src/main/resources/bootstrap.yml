@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848 #nacos地址
+        file-extension: yaml #后缀名称
+        extension-configs[0]: #配置文件1
+          data-id: common.yaml #文件名
+          refresh: true #文件内容修改是否更新到本地
+  #多个接口的@FeignClient("相同服务名")会报错
+  #设置为true，即允许同名
+  main:
+    allow-bean-definition-overriding: true

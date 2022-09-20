@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyf.t31.ticket.dao.StationDao">
+    <select id="selectByPage" resultType="Station">
+        select
+        *
+        from
+        train_station
+        <where>
+            <if test="numberId != null and numberId != ''">
+                number_id = #{numberId}
+            </if>
+            <if test="arriveType != null and arriveType != ''">
+                and arrive_type = #{arriveType}
+            </if>
+            <if test="name != null and name != ''">
+                and `name` = #{name}
+            </if>
+        </where>
+    </select>
+</mapper>

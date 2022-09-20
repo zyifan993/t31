@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyf.t31.order.dao.TrainOrderDao">
+
+	<select id="selectByPage" resultType="TrainOrder">
+		SELECT
+			a.*,
+			b.name as passengerName
+		FROM
+			train_order a
+		INNER JOIN
+			train_passenger b
+		ON
+			a.`passenger_id` = b.`id`
+		INNER JOIN
+			admin_user c
+		ON
+			b.`user_id` = c.`id`
+
+		<where>
+		<if test="userName != null and userName != ''">
+			and c.user_name = #{userName}
+		</if>
+		</where>
+	</select>
+
+	<!--重写baseMapper的selectById因为页面需要deptName，此处需要关联查询-->
+	<select id="selectById" resultType="TrainOrder">
+		SELECT
+			a.*,
+			b.name as passengerName
+		FROM
+			train_order a
+		INNER JOIN
+			train_passenger b
+		ON
+			a.`passenger_id` = b.`id`
+		where
+			a.id = #{id}
+	</select>
+
+
+</mapper>

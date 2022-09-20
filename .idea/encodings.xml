@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-instance/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-auth-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-order/t31-order-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-order/t31-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>

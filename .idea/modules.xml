@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-admin/t31-admin.iml" filepath="$PROJECT_DIR$/t31-parent/t31-admin/t31-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-instance/t31-admin-instance.iml" filepath="$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-instance/t31-admin-instance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-service/t31-admin-service.iml" filepath="$PROJECT_DIR$/t31-parent/t31-admin/t31-admin-service/t31-admin-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-auth-center/t31-auth-center.iml" filepath="$PROJECT_DIR$/t31-parent/t31-auth-center/t31-auth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-core/t31-core.iml" filepath="$PROJECT_DIR$/t31-parent/t31-core/t31-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-gateway/t31-gateway.iml" filepath="$PROJECT_DIR$/t31-parent/t31-gateway/t31-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-order/t31-order.iml" filepath="$PROJECT_DIR$/t31-parent/t31-order/t31-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-order/t31-order-interface/t31-order-interface.iml" filepath="$PROJECT_DIR$/t31-parent/t31-order/t31-order-interface/t31-order-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-order/t31-order-service/t31-order-service.iml" filepath="$PROJECT_DIR$/t31-parent/t31-order/t31-order-service/t31-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-parent.iml" filepath="$PROJECT_DIR$/t31-parent/t31-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket.iml" filepath="$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-interface/t31-ticket-interface.iml" filepath="$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-interface/t31-ticket-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-service/t31-ticket-service.iml" filepath="$PROJECT_DIR$/t31-parent/t31-ticket/t31-ticket-service/t31-ticket-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t31-ui/t31-ui.iml" filepath="$PROJECT_DIR$/t31-ui/t31-ui.iml" />
+    </modules>
+  </component>
+</project>

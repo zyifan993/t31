@@ -1,0 +1,322 @@
+2022-09-19 00:29:43,675 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 00:29:43,678 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 10:50:31,956 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 10:50:31,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 10:51:02,507 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 10:51:02,507 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 10:51:29,220 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 10:51:29,220 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 192.168.101.3:9006_true,
+
+2022-09-19 11:25:07,084 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 11:25:07,084 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 11:26:04,946 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 11:26:05,719 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663557946634
+
+2022-09-19 11:26:07,173 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663557947171
+
+2022-09-19 11:26:07,522 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9006@DEFAULT@DEFAULT_GROUP@@ticket-service, region: unknown, msg: client timeout after 15000, last beat: 1663557948501
+
+2022-09-19 11:26:17,282 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_false,
+
+2022-09-19 11:26:17,357 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 11:26:17,357 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 11:26:22,283 INFO service: DEFAULT_GROUP@@auth-center {POS} {IP-ENABLED} valid: 192.168.101.3:9098@DEFAULT, region: unknown, msg: client beat ok
+
+2022-09-19 11:26:22,533 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 11:26:22,533 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 
+
+2022-09-19 11:26:46,145 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 11:26:46,145 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 11:29:57,654 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663558181486
+
+2022-09-19 11:30:00,360 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663558185221
+
+2022-09-19 11:30:01,105 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663558182780
+
+2022-09-19 11:30:12,672 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 11:30:12,672 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 11:30:15,387 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 11:30:15,387 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 11:30:16,137 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 11:30:16,137 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 11:30:33,057 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 11:30:33,057 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 11:32:12,762 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 11:32:12,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 11:34:54,205 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 11:34:54,205 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 15:36:47,236 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663562827710
+
+2022-09-19 15:36:47,236 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663562827371
+
+2022-09-19 15:36:47,236 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663562826391
+
+2022-09-19 15:36:47,247 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 15:36:47,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 15:36:47,247 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 15:36:47,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 15:36:47,247 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 15:36:47,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 15:36:48,999 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 15:36:49,000 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 15:36:49,959 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 15:36:49,959 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 15:36:50,316 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 15:36:50,316 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 16:57:49,969 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663577853067
+
+2022-09-19 16:57:49,969 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663577854464
+
+2022-09-19 16:57:50,032 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663577854175
+
+2022-09-19 16:58:05,003 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 16:58:05,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 16:58:05,003 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 16:58:05,003 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 16:58:05,062 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 16:58:05,062 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 18:41:37,701 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 18:41:37,701 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 18:42:11,999 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 18:42:11,999 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 18:44:16,924 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 18:44:16,924 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 18:50:58,157 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 18:50:58,157 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 192.168.101.3:9006_true,
+
+2022-09-19 18:59:08,960 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 192.168.101.3:9006_true,
+
+2022-09-19 19:02:39,350 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9006@DEFAULT@DEFAULT_GROUP@@ticket-service, region: unknown, msg: client timeout after 15000, last beat: 1663585344145
+
+2022-09-19 19:02:39,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 192.168.101.3:9006_false,
+
+2022-09-19 19:02:44,511 INFO service: DEFAULT_GROUP@@ticket-service {POS} {IP-ENABLED} valid: 192.168.101.3:9006@DEFAULT, region: unknown, msg: client beat ok
+
+2022-09-19 19:39:56,302 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 19:39:56,302 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 19:40:16,334 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663587601313
+
+2022-09-19 19:40:31,373 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 19:40:31,373 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2022-09-19 20:03:33,249 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 20:03:33,249 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 20:06:02,433 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 20:08:28,683 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663589292681
+
+2022-09-19 20:08:30,486 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_false,
+
+2022-09-19 20:08:35,493 INFO service: DEFAULT_GROUP@@order-service {POS} {IP-ENABLED} valid: 192.168.101.3:9007@DEFAULT, region: unknown, msg: client beat ok
+
+2022-09-19 20:32:51,163 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663590753319
+
+2022-09-19 20:32:52,406 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663590753399
+
+2022-09-19 20:32:53,121 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663590753703
+
+2022-09-19 20:32:53,433 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9006@DEFAULT@DEFAULT_GROUP@@ticket-service, region: unknown, msg: client timeout after 15000, last beat: 1663590754547
+
+2022-09-19 20:32:53,713 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663590754209
+
+2022-09-19 20:33:06,191 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 20:33:06,191 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2022-09-19 20:33:07,437 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 20:33:07,437 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 20:33:08,154 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 20:33:08,154 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 20:33:08,453 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 20:33:08,453 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 
+
+2022-09-19 20:33:08,747 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 20:33:08,747 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 21:05:22,233 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:05:22,233 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 21:05:46,332 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:05:46,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 21:09:56,142 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:09:56,142 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 21:11:46,333 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663593091315
+
+2022-09-19 21:11:47,459 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 21:11:51,906 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663593092003
+
+2022-09-19 21:12:01,367 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 21:12:01,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2022-09-19 21:12:06,941 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 21:12:06,941 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 21:12:29,268 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:12:29,268 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 21:20:17,279 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:20:17,279 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 21:20:34,728 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 21:20:34,728 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 23:02:57,837 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 23:03:18,831 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:03:18,831 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 192.168.101.3:9006_true,
+
+2022-09-19 23:05:33,819 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 23:12:54,851 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:12:54,851 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2022-09-19 23:13:18,749 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:13:18,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 23:16:19,355 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663600561796
+
+2022-09-19 23:16:20,228 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9006@DEFAULT@DEFAULT_GROUP@@ticket-service, region: unknown, msg: client timeout after 15000, last beat: 1663600564698
+
+2022-09-19 23:16:21,163 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663600564063
+
+2022-09-19 23:16:23,921 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663600564163
+
+2022-09-19 23:16:25,118 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663600565219
+
+2022-09-19 23:16:34,396 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:16:34,396 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 23:16:35,266 INFO DEFAULT_GROUP@@ticket-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9006:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:16:35,266 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@ticket-service, ips: 
+
+2022-09-19 23:16:36,200 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:16:36,200 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+
+2022-09-19 23:16:38,954 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:16:38,954 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 23:16:40,143 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:16:40,143 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 23:17:45,305 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:17:45,305 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.101.3:8062_true,
+
+2022-09-19 23:21:06,423 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:21:06,423 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 192.168.101.3:9098_true,
+
+2022-09-19 23:21:31,371 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:21:31,371 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 192.168.101.3:9001_true,
+
+2022-09-19 23:21:47,801 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-19 23:21:47,801 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 192.168.101.3:9007_true,
+
+2022-09-19 23:23:46,554 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9001@DEFAULT@DEFAULT_GROUP@@admin-service, region: unknown, msg: client timeout after 15000, last beat: 1663601011550
+
+2022-09-19 23:23:46,698 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9098@DEFAULT@DEFAULT_GROUP@@auth-center, region: unknown, msg: client timeout after 15000, last beat: 1663601011646
+
+2022-09-19 23:23:50,882 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:8062@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1663601010947
+
+2022-09-19 23:23:53,002 INFO {POS} {IP-DISABLED} valid: 192.168.101.3:9007@DEFAULT@DEFAULT_GROUP@@order-service, region: unknown, msg: client timeout after 15000, last beat: 1663601013011
+
+2022-09-19 23:24:01,572 INFO DEFAULT_GROUP@@admin-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:24:01,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@admin-service, ips: 
+
+2022-09-19 23:24:01,732 INFO DEFAULT_GROUP@@auth-center {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9098:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:24:01,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@auth-center, ips: 
+
+2022-09-19 23:24:05,910 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:8062:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:24:05,910 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2022-09-19 23:24:08,024 INFO DEFAULT_GROUP@@order-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.101.3:9007:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-19 23:24:08,024 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order-service, ips: 
+

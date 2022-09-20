@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="t31-gateway" />
+        <module name="t31-order-service" />
+        <module name="t31-order-interface" />
+        <module name="t31-core" />
+        <module name="t31-ticket-service" />
+        <module name="t31-auth-center" />
+        <module name="t31-admin-service" />
+        <module name="t31-admin-instance" />
+        <module name="t31-ticket-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="t31-admin" target="1.8" />
+      <module name="t31-admin-instance" target="1.8" />
+      <module name="t31-admin-service" target="1.8" />
+      <module name="t31-auth-center" target="1.8" />
+      <module name="t31-core" target="1.8" />
+      <module name="t31-gateway" target="1.8" />
+      <module name="t31-order" target="1.8" />
+      <module name="t31-order-interface" target="1.8" />
+      <module name="t31-order-service" target="1.8" />
+      <module name="t31-parent" target="1.8" />
+      <module name="t31-ticket" target="1.8" />
+      <module name="t31-ticket-interface" target="1.8" />
+      <module name="t31-ticket-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="t31-admin" options="-parameters" />
+      <module name="t31-admin-instance" options="-parameters" />
+      <module name="t31-admin-service" options="-parameters" />
+      <module name="t31-auth-center" options="-parameters" />
+      <module name="t31-core" options="-parameters" />
+      <module name="t31-gateway" options="-parameters" />
+      <module name="t31-order" options="" />
+      <module name="t31-order-interface" options="-parameters" />
+      <module name="t31-order-service" options="-parameters" />
+      <module name="t31-ticket" options="-parameters" />
+      <module name="t31-ticket-interface" options="-parameters" />
+      <module name="t31-ticket-service" options="-parameters" />
+    </option>
+  </component>
+</project>

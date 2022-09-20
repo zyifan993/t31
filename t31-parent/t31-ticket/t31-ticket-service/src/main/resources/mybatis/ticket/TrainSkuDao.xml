@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zyf.t31.ticket.dao.TrainSkuDao">
+
+	<select id="selectByPage" resultType="TrainSku">
+		select
+			*
+		from
+			train_sku
+		<where>
+		<if test="trainDate != null">
+			train_date = #{trainDate}
+		</if>
+		<if test="trainNumber != null and trainNumber != ''">
+			and train_number = #{trainNumber}
+		</if>
+		<if test="fromStation != null and fromStation != ''">
+			and from_station = #{fromStation}
+		</if>
+		<if test="toStation != null and toStation != ''">
+			and to_station = #{toStation}
+		</if>
+		</where>
+	</select>
+
+</mapper>

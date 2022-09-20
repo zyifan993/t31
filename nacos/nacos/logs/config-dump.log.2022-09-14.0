@@ -1,0 +1,48 @@
+2022-09-14 15:51:11,220 INFO [dump-all-ok] admin-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=294, md5=f1247a48d3d7f71c92071660a1b079eb
+
+2022-09-14 15:51:11,223 INFO [dump-all-ok] auth-center-dev.yaml+DEFAULT_GROUP, 1661668450844, length=84, md5=9773e9d9a87d5621b48a8f7ff2de0434
+
+2022-09-14 15:51:11,223 INFO [dump-all-ok] common.yaml+DEFAULT_GROUP, 1661668450844, length=597, md5=f0846eb078f2f8574e67d66012c25602
+
+2022-09-14 15:51:11,223 INFO [dump-all-ok] db.yaml+DEFAULT_GROUP, 1661789115337, length=556, md5=407f65b11d2ad6c53dec4e07ea6f4233
+
+2022-09-14 15:51:11,223 INFO [dump-all-ok] gateway-dev.yaml+DEFAULT_GROUP, 1661668450844, length=831, md5=4f21d2099825bad8c6d961d78bef0e62
+
+2022-09-14 15:51:11,224 INFO [dump-all-ok] security.yaml+DEFAULT_GROUP, 1661668450844, length=127, md5=791d88f7c514dc017a8c4d02af820def
+
+2022-09-14 15:51:11,224 INFO [dump-all-ok] ticket-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=21, md5=900097e2d76c7abb22d12494f50ab799
+
+2022-09-14 15:51:11,225 INFO [dump-all-ok] order-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=20, md5=be35e06fa530dcff08784771d9198cbb
+
+2022-09-14 22:00:31,347 INFO [dump-all-ok] admin-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=294, md5=f1247a48d3d7f71c92071660a1b079eb
+
+2022-09-14 22:00:31,347 INFO [dump-all-ok] auth-center-dev.yaml+DEFAULT_GROUP, 1661668450844, length=84, md5=9773e9d9a87d5621b48a8f7ff2de0434
+
+2022-09-14 22:00:31,347 INFO [dump-all-ok] common.yaml+DEFAULT_GROUP, 1661668450844, length=597, md5=f0846eb078f2f8574e67d66012c25602
+
+2022-09-14 22:00:31,348 INFO [dump-all-ok] db.yaml+DEFAULT_GROUP, 1661789115337, length=556, md5=407f65b11d2ad6c53dec4e07ea6f4233
+
+2022-09-14 22:00:31,348 INFO [dump-all-ok] gateway-dev.yaml+DEFAULT_GROUP, 1661668450844, length=831, md5=4f21d2099825bad8c6d961d78bef0e62
+
+2022-09-14 22:00:31,348 INFO [dump-all-ok] security.yaml+DEFAULT_GROUP, 1661668450844, length=127, md5=791d88f7c514dc017a8c4d02af820def
+
+2022-09-14 22:00:31,349 INFO [dump-all-ok] ticket-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=21, md5=900097e2d76c7abb22d12494f50ab799
+
+2022-09-14 22:00:31,349 INFO [dump-all-ok] order-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=20, md5=be35e06fa530dcff08784771d9198cbb
+
+2022-09-14 22:25:48,103 INFO [dump-all-ok] admin-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=294, md5=f1247a48d3d7f71c92071660a1b079eb
+
+2022-09-14 22:25:48,103 INFO [dump-all-ok] auth-center-dev.yaml+DEFAULT_GROUP, 1661668450844, length=84, md5=9773e9d9a87d5621b48a8f7ff2de0434
+
+2022-09-14 22:25:48,103 INFO [dump-all-ok] common.yaml+DEFAULT_GROUP, 1661668450844, length=597, md5=f0846eb078f2f8574e67d66012c25602
+
+2022-09-14 22:25:48,104 INFO [dump-all-ok] db.yaml+DEFAULT_GROUP, 1661789115337, length=556, md5=407f65b11d2ad6c53dec4e07ea6f4233
+
+2022-09-14 22:25:48,104 INFO [dump-all-ok] gateway-dev.yaml+DEFAULT_GROUP, 1661668450844, length=831, md5=4f21d2099825bad8c6d961d78bef0e62
+
+2022-09-14 22:25:48,104 INFO [dump-all-ok] security.yaml+DEFAULT_GROUP, 1661668450844, length=127, md5=791d88f7c514dc017a8c4d02af820def
+
+2022-09-14 22:25:48,105 INFO [dump-all-ok] ticket-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=21, md5=900097e2d76c7abb22d12494f50ab799
+
+2022-09-14 22:25:48,105 INFO [dump-all-ok] order-service-dev.yaml+DEFAULT_GROUP, 1661668450844, length=20, md5=be35e06fa530dcff08784771d9198cbb
+

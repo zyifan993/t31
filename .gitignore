@@ -1,0 +1,10 @@
+# Project exclude paths
+/t31-parent/t31-admin/t31-admin-instance/target/
+/t31-parent/t31-admin/t31-admin-service/target/
+/t31-parent/t31-auth-center/target/
+/t31-parent/t31-core/target/
+/t31-parent/t31-gateway/target/
+/t31-parent/t31-order/t31-order-interface/target/
+/t31-parent/t31-order/t31-order-service/target/
+/t31-parent/t31-ticket/t31-ticket-interface/target/
+/t31-parent/t31-ticket/t31-ticket-service/target/
